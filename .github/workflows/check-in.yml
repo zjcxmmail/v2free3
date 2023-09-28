@@ -71,8 +71,8 @@ jobs:
         done
     - name: Git 提交 Commit
       run: |
-        git config --global user.email 3356136957@qq.com
-        git config --global user.name HelloTools-bot
+        git config --global user.email 994302767@qq.com
+        git config --global user.name action
         git add .
         git commit -m ":star: 签到成功" -a
     - name: Git 提交到主仓库
