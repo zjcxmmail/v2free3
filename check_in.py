@@ -4,6 +4,7 @@ import json
 import logging
 import argparse
 import requests
+import os
 
 class CheckIn(object):
     client = requests.Session()
