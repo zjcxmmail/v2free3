@@ -42,7 +42,7 @@ class CheckIn(object):
         }
         response = self.client.post(self.sign_url, headers=headers)
 
-        requests.get('http://www.pushplus.plus/send?token=' + os.environ.get("PUSHPLUS_TOKEN", "") + '&title='+self.masked_username+'签到成功'+'&content='+response.json())
+        requests.get("http://www.pushplus.plus/send?token=" + os.environ.get("PUSHPLUS_TOKEN", "") + "&title=" + self.masked_username + "签到成功" + "&content=" + " " + response.json())
         logging.info(self.masked_username + " " + response.json())
 
 
