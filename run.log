@@ -1,2 +1,3 @@
 [2023-10-09 20:32:48,154] [INFO] l**********@g****.com {'ret': 0, 'msg': '您似乎已经签到过了...'}
 [2023-10-10 03:18:44,762] [INFO] l**********@g****.com {'ret': 0, 'msg': '您似乎已经签到过了...'}
+[2023-10-11 03:19:00,664] [INFO] l**********@g****.com {'msg': '获得了 382MB 流量.', 'unflowtraffic': 6736052224, 'traffic': '6.27GB', 'trafficInfo': {'todayUsedTraffic': '36.2KB', 'lastUsedTraffic': '6.09MB', 'unUsedTraffic': '6.27GB'}, 'ret': 1}
