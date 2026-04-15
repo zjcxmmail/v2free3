@@ -8,8 +8,8 @@ import os
 
 class CheckIn(object):
     client = requests.Session()
-    login_url = "https://w1.v2free.top/auth/login"
-    sign_url = "https://w1.v2free.top/user/checkin"
+    login_url = "https://w2.v2free.top/auth/login"
+    sign_url = "https://w2.v2free.top/user/checkin"
 
     def __init__(self, username, password):
         self.username = username
